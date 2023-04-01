@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: black;
+}
+.grow-list{
+    flex-grow: 1;
+}
+img{
+    width: 92px;
+    height: 32px;
+    cursor: pointer;
+}
+.line{
+    width: 1px;
+    height: 45px;
+    background-color: white;
+    margin-left: 20px;
+}
+.list{
+    margin-left: 60px;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    font-family: "poppins";
+    font-weight: 600px;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 25px;
+}
+.button-small{
+    padding: 7px 25px;
+    background-color: rgb(173, 19, 161);
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 600px;
+    font-style: normal;
+    line-height: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+/* main section */
+.hero{
+    background-image: url(bg.png);
+    background-size: cover;
+    height: 88.10vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+.hero-heading{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 64px;
+    line-height: 65px;
+    text-align: center;
+    padding-top: 170px;
+    color: white;
+}
+.hero-description{
+    font-size: 24px;
+    font-weight: 500px;
+    font-style: normal;
+    line-height: 47px;
+    color: white;
+    font-family: "poppins";
+}
+.hero-btn{
+    padding: 7px 28px;
+    background-color:rgb(173, 19, 161) ;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    line-height: 40px;
+    font-weight: 900px;
+    font-size: 17px;
+    margin-top: 50px;
+    font-family: "poppins";
+}
+.button-small:hover{
+    background-color: rgb(128, 45, 128);
+}
+.hero-btn:hover{
+    background-color:rgb(110, 6, 110) ;
+}
+.list li{
+    cursor: pointer;
+}
+  
+.list li:hover{
+    color: #b355cf;
+}
